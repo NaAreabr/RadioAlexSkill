@@ -1,0 +1,58 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "sim",
+            "sair",
+            "fechar",
+            "parar rádio",
+            "parar radio",
+            "cancel",
+            "cancelar"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "Rede Minas",
+            "Emc",
+            "ajuda"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "respostaUsuario",
+              "type": "AMAZON.RadioChannel"
+            }
+          ],
+          "name": "PlayFMIntent",
+          "samples": [
+            "{respostaUsuario}"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        }
+      ],
+      "types": [],
+      "invocationName": "rádio inconfidência"
+    }
+  }
+}
