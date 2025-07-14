@@ -1,0 +1,77 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "summary": "Skill da rádio Inconfidência de Minas Gerais",
+          "examplePhrases": [
+            "Alexa escutar rádio Inconfidência",
+            "Alexa abrir rádio Inconfidência",
+            "Alexa rádio Inconfidência"
+          ],
+          "keywords": [
+            "Rádio",
+            "Inconfidência"
+          ],
+          "name": "Rádio Inconfidência",
+          "description": "Escute a rádio F.M. ou A.M. da Rádio Inconfidência que é uma emissora de rádio pública do estado de Minas Gerais, transmitida em AM 880 kHz FM 100.9 MHz e em Ondas Curtas de 6010 kHz e 15190 kHz.",
+          "smallIconUri": "file://assets/images/pt-BR_smallIconUri.png",
+          "largeIconUri": "file://assets/images/pt-BR_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "{\"ask_dist_username\":\"\",\"ask_dist_password\":\"\",\"ask_dist_testing_instructions\":\"Escolha sua rádio A.M. ou F.M. e quando quiser parar diga \\\"parar\\\", \\\"pare\\\" ou \\\"cancelar\\\"!\"}",
+      "category": "CHILDRENS_RADIO",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:559521408221:function:7038d4b2-acb8-42b2-9392-c8b1672d4ef8:Release_1"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ],
+        "locales": {},
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:559521408221:function:7038d4b2-acb8-42b2-9392-c8b1672d4ef8:Release_1"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:559521408221:function:7038d4b2-acb8-42b2-9392-c8b1672d4ef8:Release_1"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:559521408221:function:7038d4b2-acb8-42b2-9392-c8b1672d4ef8:Release_1"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "pt-BR": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "shoppingKit": {
+        "isShoppingActionsEnabled": false,
+        "isAmazonAssociatesOnAlexaEnabled": false
+      },
+      "usesPersonalInfo": false
+    }
+  }
+}
